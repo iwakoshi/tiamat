@@ -1,4 +1,5 @@
 export const environment = {
- production: false,
- hmr: true
+  production: true,
+  hmr: true,
+  apis: { tiamat: './assets/mock' }
 };

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Layout",
+    "elements": [
+      {
+        "name": "grid",
+        "content": "<div class=\"m-1\" draggable=\"&lt;div class=&quot;m-1&quot;&gt;grid&lt;/div&gt;\">grid</div>"
+      }
+    ]
+  },
+  {
+    "name": "Form",
+    "elements": [
+      {
+        "name": "input",
+        "content": "<mat-form-field draggable=\"&lt;mat-form-field&gt;&lt;input matInput placeholder=&quot;Input Text&quot;&gt;&lt;/mat-form-field&gt;\"><input matInput class=\"move\" placeholder=\"Input Text\" readonly></mat-form-field>"
+      },
+      {
+        "name": "checkbox",
+        "content": "<mat-checkbox draggable class=\"move\">Checkbox</mat-checkbox>"
+      },
+      {
+        "name": "select",
+        "content": "<mat-form-field draggable><mat-label>Select</mat-label><mat-select disabled=\"true\" class=\"move\"><mat-option value=\"volvo\">Volvo</mat-option><mat-option value=\"audi\">Audi</mat-option></mat-select></mat-form-field>"
+      }
+    ]
+  }
+]
