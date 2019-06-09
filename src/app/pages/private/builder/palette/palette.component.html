@@ -1,0 +1,14 @@
+<mat-card class="m-1">
+  <div *ngFor="let groupElement of groupElements$ | async">
+    <div>
+      {{ groupElement.name }}
+    </div>
+    <div class="ml-2 flex flex-column">
+      <ng-container *ngFor="let element of groupElement.elements">
+        <div class="pl-1 mb-1 codemaker element">
+          <ng-template [element]="element"></ng-template>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</mat-card>

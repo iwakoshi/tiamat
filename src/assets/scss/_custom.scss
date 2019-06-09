@@ -1,0 +1,47 @@
+.flex {
+  display: flex
+}
+
+.flex-column {
+  flex-direction: column
+}
+
+.move {
+  cursor: move !important;
+
+  .mat-select-trigger {
+    cursor: move !important;
+  }
+}
+
+.codemaker:hover, .codemaker:active, [droppable]:hover, .over {
+  border: 1px solid rgba(83, 162, 229, 0.647) !important;
+}
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable] {
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  cursor: move;
+}
+
+$spaceamounts: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10); // Adjust this to include the pixel amounts you need.
+$sides: ('', '-top', '-bottom', '-left', '-right'); // Leave this variable alone
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m#{str-slice($side, 2, 2)}-#{$space} {
+      margin#{$side}: #{$space}rem !important;
+    }
+
+    .p#{str-slice($side, 2, 2)}-#{$space} {
+      padding#{$side}: #{$space}rem !important;
+    }
+  }
+}
+
+.mat-form-field {
+  width: 93%;
+}

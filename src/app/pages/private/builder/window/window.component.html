@@ -1,0 +1,15 @@
+<div class="m-1 browser mat-elevation-z2 flex flex-column">
+  <div class="flex">
+    <div class="buttons">
+      <span class="button close"></span>
+      <span class="button minimise"></span>
+      <span class="button maximise"></span>
+    </div>
+    <div class="chrome">
+      <input type="text" disabled value="http://localhost">
+    </div>
+  </div>
+  <div class="main" (droppable)="createElement($event)">
+    <div element></div>
+  </div>
+</div>
