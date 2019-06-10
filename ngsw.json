@@ -1,0 +1,90 @@
+{
+  "configVersion": 1,
+  "timestamp": 1560136051825,
+  "index": "/tiamat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/tiamat/0-es2015.b8839d996f63a620985e.js",
+        "/tiamat/0-es5.2f537532be9aa5a0b73e.js",
+        "/tiamat/favicon.ico",
+        "/tiamat/index.html",
+        "/tiamat/main-es2015.ca6a7570c16becbb0cbb.js",
+        "/tiamat/main-es5.749e4a29ab480cf01c9c.js",
+        "/tiamat/polyfills-es2015.00591d95760e50475df8.js",
+        "/tiamat/polyfills-es5.5c2650f2514043805049.js",
+        "/tiamat/runtime-es2015.347df64bf6d538a835f8.js",
+        "/tiamat/runtime-es5.e2a3d618d8d880094e01.js",
+        "/tiamat/styles-es2015.83caeeefc0f6a5162a90.js",
+        "/tiamat/styles-es5.83caeeefc0f6a5162a90.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/tiamat/assets/icons/icon-128x128.png",
+        "/tiamat/assets/icons/icon-144x144.png",
+        "/tiamat/assets/icons/icon-152x152.png",
+        "/tiamat/assets/icons/icon-192x192.png",
+        "/tiamat/assets/icons/icon-384x384.png",
+        "/tiamat/assets/icons/icon-512x512.png",
+        "/tiamat/assets/icons/icon-72x72.png",
+        "/tiamat/assets/icons/icon-96x96.png",
+        "/tiamat/assets/mock/elements",
+        "/tiamat/assets/scss/_custom.scss",
+        "/tiamat/assets/scss/theme.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/tiamat/0-es2015.b8839d996f63a620985e.js": "c604fb5bb72dd0912c23819db2a5c7d10e0c25c9",
+    "/tiamat/0-es5.2f537532be9aa5a0b73e.js": "8f967eceb2c0cfc5b72ba358f7fef9c937fe52d3",
+    "/tiamat/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/tiamat/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/tiamat/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/tiamat/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/tiamat/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/tiamat/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/tiamat/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/tiamat/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/tiamat/assets/mock/elements": "aad1f0c024ec1e2bf79ed760ee5c398c230427bd",
+    "/tiamat/assets/scss/_custom.scss": "c0e0e3ea10c03b8eb0ee597ac85fed0be860603d",
+    "/tiamat/assets/scss/theme.scss": "8fc44d637a640cb51a677cd33908ea0e546d4875",
+    "/tiamat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/tiamat/index.html": "186828046e17703893ed936ee88be27b2ce2c0e7",
+    "/tiamat/main-es2015.ca6a7570c16becbb0cbb.js": "f114605a80bb3d9eb8121e05fcfb1b2bae3b2ba2",
+    "/tiamat/main-es5.749e4a29ab480cf01c9c.js": "f42602ce3699bdebc2463173cab919feef7961b9",
+    "/tiamat/polyfills-es2015.00591d95760e50475df8.js": "e7acc1c0362c798ae64e1d588d14cded46fc4a78",
+    "/tiamat/polyfills-es5.5c2650f2514043805049.js": "267749fa8b62a41a6d602657f0a5aaffea3e8da9",
+    "/tiamat/runtime-es2015.347df64bf6d538a835f8.js": "e02de4a173d16121ad59fd94e11dc40040851bb7",
+    "/tiamat/runtime-es5.e2a3d618d8d880094e01.js": "462e65989521a32f70cae6d5ee3971c089712edf",
+    "/tiamat/styles-es2015.83caeeefc0f6a5162a90.js": "1555377f2a6fa9d4cddc9a1165be8689aae878e0",
+    "/tiamat/styles-es5.83caeeefc0f6a5162a90.js": "1555377f2a6fa9d4cddc9a1165be8689aae878e0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
